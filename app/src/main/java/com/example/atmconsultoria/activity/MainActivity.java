@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity
         } catch (ActivityNotFoundException ex) {
             Toast.makeText(this, "Não ha app de Email encontrado", Toast.LENGTH_SHORT);
         } catch (Exception ex) {
-            Toast.makeText(this, "Erro inesperado, tente novamente mais tarde", Toast.LENGTH_SHORT);
+            Toast.makeText(this, "Erro inesperado, tente novamente mais tarde ou outro aplicativo", Toast.LENGTH_SHORT);
         }
 
 
